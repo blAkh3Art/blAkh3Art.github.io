@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 10px 10px 10px 25px;
+}
+
+.logo img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.header_button {
+  margin-top: 15px;
+}
+
+.btn-warning {
+  color: white;
+  border-radius: 20px;
+  shape-margin: 0 50px 0 50px;
+  background-color: crimson;
+}
+
+.btn-warning:hover{
+  color: white;
+  background-color: orange;
+}
+
+ul {
+  margin: 15px;
+  float: left;
+}
+
+ul li {
+  padding-right: 5px;
+}
+
+ul li a {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+ul li a:hover{
+  color: orange;
+  border-bottom: 2px solid grey;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    display: hidden;
+}
+
+.has-search .form-control-feedback {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 2px;
+    height: 2px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+input[type=text] {
+  width: 2px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:hover {
+  width: 100%;
+}
+
+.btnsearch{
+  display: flex;
+}
+
+.searchbox{
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.form-control{
+  border: transparent;
+}
+
+.slider img{
+  width: inherit;
+  height: 500px;
+}
+
+.team_motto{
+	margin-top: 55px;
+  margin-bottom: 70px;
+	text-align: center;
+  width: 95%;
+  display:inline-block;
+}
+.bottom ul li a{
+text-decoration: none;
+color: white
+}
+
+.card-img-top{
+
+}
+
+.bottom ul li{
+  list-style-type:circle;
+  color: orange;
+}
+
+.bottom ul li a{
+  font-size: 10px;
+  color: black;
+}
