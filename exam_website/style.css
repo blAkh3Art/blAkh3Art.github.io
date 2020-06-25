@@ -78,7 +78,6 @@ input[type=text]:focus {
 .header_button{
   display: flex;
   float:left;
-  padding-left: 50px;
 }
 
 .searchbox{
