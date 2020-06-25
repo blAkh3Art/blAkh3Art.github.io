@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Header Section */
 .logo {
   margin: 10px 10px 10px 25px;
 }
@@ -17,16 +18,17 @@
   margin-top: 15px;
 }
 
-.btn-warning {
+.btn-danger {
   color: white;
   border-radius: 20px;
   shape-margin: 0 50px 0 50px;
   background-color: crimson;
 }
 
-.btn-warning:hover{
+.btn-danger:hover{
   color: white;
   background-color: orange;
+  border-color: orange;
 }
 
 ul {
@@ -91,10 +93,18 @@ input[type=text]:focus {
   border: transparent;
 }
 
+  /* End of Header Section */
+
+  /* Slider Section */
+
 .slider img{
   width: inherit;
   height: 500px;
 }
+
+  /* End of Slider Section */
+
+  /* Content Section */
 
 .team_motto{
 	margin-top: 55px;
@@ -103,14 +113,10 @@ input[type=text]:focus {
   width: 95%;
   display:inline-block;
 }
-.bottom ul li a{
-text-decoration: none;
-color: white
-}
 
-.card-img-top{
+  /* End of Content Section */
 
-}
+  /*Footer Section */
 
 .bottom ul li{
   list-style-type:circle;
@@ -120,4 +126,8 @@ color: white
 .bottom ul li a{
   font-size: 10px;
   color: black;
+  text-decoration: none;
+  color: white;
 }
+
+/* End of Footer Section */
