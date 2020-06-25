@@ -124,8 +124,9 @@ input[type=text]:focus {
 }
 
 .bottom ul li a{
-  font-size: 10px;
+  
   color: black;
+  font-size: 10px;
   text-decoration: none;
 }
 
