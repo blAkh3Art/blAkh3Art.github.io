@@ -50,7 +50,6 @@ ul li a:hover{
 }
 
 .has-search .form-control {
-    padding-left: 2.375rem;
     display: hidden;
 }
 
@@ -72,17 +71,21 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:hover {
+input[type=text]:focus {
   width: 100%;
 }
 
-.btnsearch{
+.header_button{
   display: flex;
+  float:left;
+  padding-left: 50px;
 }
 
 .searchbox{
   margin-top: 15px;
   padding-left: 10px;
+  display: flex;
+  float:left;
 }
 
 .form-control{
