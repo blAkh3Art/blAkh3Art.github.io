@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.logo{
+  margin:20px;
+  display: flex;
+  padding-left: 100px;
+}
+
+.logo img{
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+
+.logo a{
+  color: grey;
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 10px;
+  text-decoration-color: orange;
+  text-decoration-style: wavy;
+}
+
+ul{
+  margin:20px;
+  float: right;
+}
+
+ul li{
+  text-transform: uppercase;
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+ul li a{
+  color: white;
+}
+
+ul li a:hover{
+  border-bottom: 3px solid orange;
+  color:white;
+}
+
+.btn-warning{
+  border-radius: 30px;
+  color: white;
+}
+
+.btn-warning:hover{
+  color: white;
+  background-color: grey;
+  border: none;
+}
+
+.heading_text h1{
+  font-size: 50px;
+  margin-top: 130px;
+  text-align: justify;
+  padding-left: 130px;
+  font-weight: bold;
+}
+
+.heading_text span{
+  color: orange;
+}
+
+.heading_para{
+  margin-top: 40px;
+}
+
+.heading_para h6{
+  color: grey;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 130px;
+}
+
+.order_button{
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.order_button .btn-danger{
+  background-color: orange;
+  border:none;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.order_button .btn-danger:hover{
+  background-color: black;
+}
+
+.order_button a{
+
+padding-top:10px; padding-bottom: 10px;
+padding-left: 40px; padding-right: 40px;
+
+}
+
+.social_icon{
+  margin-top: 150px;
+  margin-left: 130px;
+}
+
+.social_icon a{
+  padding-right: 40px;
+}
+
+.menu{
+  height: 768px;
+  background-image: url(images/h_banner.png);
+  position: top:0,right:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.food-item{
+  display:flex;
+  margin-top: 180px;
+}
+
+.food-item img{
+  height: 600px;
+  margin-left: -15px;
+}
+
+.food-menu h1{
+  margin-top: 200px;
+  padding-left: 70px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 55px;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.paragraph{
+  margin-top:50px;
+}
+
+.paragraph h5{
+  color: #aaa;
+  padding-left: 80px
+}
+
+.plans{
+    background-color: #F8AB44;
+    height: 700px;
+    margin-top: 85px;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.plans h1{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.plans-right{
+	background-color: white;
+    height: 260px;
+    margin-top: -136px;
+    border-radius: 50%;
+    /*display: flex;*/
+    text-align: end;
+}
+
+.plans-right img {
+    width: 600px;
+    border-radius: 32px;
+    margin: -500px 75px;
+}
+
+.plans-right h5{
+	  font-size: 30px;
+    color: white;
+  	margin-right: 120px;
+}
+
+.plans-left .sp01{
+	  font-size: 70px;
+    color: orange;
+    margin: 0;
+}
+
+.plans-left p{
+	  font-size: 22px;
+    margin-right: 77px;
+    color: white;
+    font-weight: bolder;
+}
+
+.plans-left{
+  display: flex;
+}
+
+.plans-left img {
+    width: 600px;
+    border-radius: 32px;
+    margin: -487px 75px;
+    height: 468.8px;
+}
+
+.plans-right h1{
+	  color: orange;
+    margin-right: 121px;
+}
+
+.offer1{
+  margin-top: -200px;
+  margin-left: -307px;
+}
+
+.offer1 span {
+    color: white;
+    font-weight: bolder;
+}
+
+.Contact h1{
+  text-decoration: underline;
+  text-decoration-color: orange;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+
+.contact_form{
+	  width: 450px;
+    border: 2px solid;
+    border-radius: 22px;
+    padding: 45px;
+    height: 475px;
+    background-color: orange;
+    margin-left: 75px;
+    margin-top: 70px;
+    position: absolute;
+    z-index: 10;
+}
+
+.contact_form .btn{
+	padding: 20px 80px;
+  background-color: white;
+  color: orange;
+  margin-left: 60px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.footer{
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+	font-size: large;
+  color: black;
+  height: 285px;
+  font-weight: bold;
+}
+
+.footer div{
+	  margin-top: 20px;
+}
+
+.footer_menu p{
+  margin-bottom: 0;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.footer_menu ul li{
+	list-style: none;
+}
+
+.footer_menu ul li a {
+
+	color: black;
+	text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.social i{
+	background-color: white;
+	border-radius: 21%;
+  padding: 3px;
+  color: orange;
+}
+
+.copyright{
+	  text-align: center;
+    background-color: #aaa;
+    color: white;
+    font-size: 20px;
+    margin-top: -7px;
+}
